@@ -1,4 +1,6 @@
 var express = require('express');
+
+
 // Create the app
 var app = express();
 
@@ -13,4 +15,4 @@ function listen() {
   console.log('Application listening at http://' + host + ':' + port);
 }
 
-app.use(express.static('public'));
+app.use(express.static('src'));
